@@ -1,0 +1,16 @@
+
+//TODO: Crie um objeto chamado contaBancaria para armazenar informações da conta.
+let contaBancaria = {
+
+  // Obtém o nome do cliente da conta:
+  cliente: gets(),
+
+//TODO: Agora crie as demais propriedades numeroConta e saldoInicial:
+  numeroConta: gets(),
+  saldoInicial: parseFloat(gets())
+};
+
+// Impressão das informações: Nome, Número da Conta e Saldo:
+print(`Nome do cliente: ${contaBancaria.cliente}`) ;
+print(`Número da conta: ${contaBancaria.numeroConta}`) ;
+print(`Saldo: R$ ${contaBancaria.saldoInicial.toFixed(2)}`);
